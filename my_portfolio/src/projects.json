@@ -2,42 +2,42 @@
     {
         "id": 1, 
         "name": "Seasons Greetings",
-        "image": "",
+        "image": "data",
         "description": "Second group project during bootcamp that helped the user find ingredients that are in season and meals that they can make with said ingredients",
         "link": "https://github.com/sosoberg/seasons_greetings"
     },
     {
         "id": 2, 
         "name": "Worth A Shot",
-        "image": "",
+        "image": "data",
         "description": "First group project in bootcamp that helped find a mixed drink when given an alcohol and mixer",
         "link": "https://github.com/sosoberg/project_1"
     },
     {
         "id": 3, 
         "name": "Note Taker",
-        "image": "",
+        "image": "data",
         "description": "A simple application that let a user record and save notes; our task for this assigement was to create and operate the API",
         "link": "https://github.com/sosoberg/note_taker"
     },
     {
         "id": 4, 
         "name": "Workout Tracker",
-        "image": "",
+        "image": "data",
         "description": "An application that tracked a users workouts stats and exercise; our assignment was to set up the DB with mongoose",
         "link": "https://github.com/sosoberg/workout_tracker"
     },
     {
         "id": 5, 
         "name": "Tech Blog",
-        "image": "",
+        "image": "data",
         "description": "A blog that a user can log in, create posts, and explore/comment on other users posts; coded from scratch",
         "link": "https://github.com/sosoberg/tech_blog"
     },
     {
         "id": 6, 
         "name": "Team Profile Generator",
-        "image": "",
+        "image": "data",
         "description": "A simple application to create a list of team members for a Tech Co.; this helped us learn how to set up dynamic websites based on user filled prompts",
         "link": "https://github.com/sosoberg/team_profile_generator"
     }

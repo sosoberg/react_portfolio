@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ProjectCard from '../components/ProjectCard';
-import Wrapper from "../components/Wrapper";
 import projects from '../projects.json';
 
 class Projects extends Component {
@@ -9,11 +8,9 @@ class Projects extends Component {
     };
 
     render () {
-            
-        console.log(projects)
         return (
-            <Wrapper>
-            {this.state.projects.map(project => {
+            <>
+            {this.state.projects.map(project => (
                 <ProjectCard 
                     id={project.id}
                     name={project.name}
@@ -21,8 +18,8 @@ class Projects extends Component {
                     description={project.description}
                     link={project.link}
                 />
-            })}
-            </Wrapper>
+            ))}
+            </>
         )
     }
 }

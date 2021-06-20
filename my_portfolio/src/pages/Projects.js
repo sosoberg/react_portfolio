@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from '../components/ProjectCard';
 import projects from '../projects.json';
+import './projectGrid.css'
 
 class Projects extends Component {
     state = {
@@ -9,7 +10,7 @@ class Projects extends Component {
 
     render () {
         return (
-            <>
+            <div className="grid">
             {this.state.projects.map(project => (
                 <ProjectCard 
                     id={project.id}
@@ -19,7 +20,7 @@ class Projects extends Component {
                     link={project.link}
                 />
             ))}
-            </>
+            </div>
         )
     }
 }

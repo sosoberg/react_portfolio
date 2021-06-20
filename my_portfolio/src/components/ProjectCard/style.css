@@ -1,0 +1,19 @@
+.project {
+    margin: 15px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px;
+    text-align: center;
+    padding: 18px;
+    background-color: antiquewhite;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-size: 25px;
+    
+}

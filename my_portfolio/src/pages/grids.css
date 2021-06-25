@@ -1,0 +1,21 @@
+.projectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.homeGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+@media only screen and (max-width: 1620px) {
+    .projectGrid {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .projectGrid {
+      grid-template-columns: 1fr;
+    }
+  }

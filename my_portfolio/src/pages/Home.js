@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <>
+    <div className="homeGrid">
         <section>
             <h2>Biography</h2>
                 <p className="bio">
@@ -25,7 +25,8 @@ function Home() {
                      around JS.
                 </p>
         </section>
-    </>
+        <img className="pcImage" src="./images/me.jpg" alt="projectImg"/>
+    </div>
   );
 }
 

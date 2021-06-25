@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from '../components/ProjectCard';
 import projects from '../projects.json';
-import './projectGrid.css'
+import './grids.css'
 
 class Projects extends Component {
     state = {
@@ -10,7 +10,7 @@ class Projects extends Component {
 
     render () {
         return (
-            <div className="grid">
+            <div className="projectGrid">
             {this.state.projects.map(project => (
                 <ProjectCard 
                     id={project.id}

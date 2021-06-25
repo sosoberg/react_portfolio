@@ -3,11 +3,16 @@
     text-align: center;
 }
 
-h2 {
+.pcHeader {
     margin: 0px;
     text-align: center;
     padding: 18px;
     background-color: antiquewhite;
+}
+
+.pcImage {
+    width: 100%;
+    min-width: 500px;
 }
 
 .link {
@@ -15,5 +20,4 @@ h2 {
     font-weight: bolder;
     color: black;
     font-size: 25px;
-    
 }

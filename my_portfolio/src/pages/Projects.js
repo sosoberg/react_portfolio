@@ -13,6 +13,7 @@ class Projects extends Component {
             <div className="projectGrid">
             {this.state.projects.map(project => (
                 <ProjectCard 
+                    key={project.id}
                     id={project.id}
                     name={project.name}
                     image={project.image}

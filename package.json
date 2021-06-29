@@ -2,7 +2,7 @@
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sosoberg.github.io/react_portfolio/",
+  "homepage": "https://sosoberg.github.io/",
   "dependencies": {
     "cra-template": "1.1.2",
     "gh-pages": "^3.2.3",

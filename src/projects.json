@@ -23,7 +23,7 @@
     {
         "id": 4, 
         "name": "Workout Tracker",
-        "image": "https://drive.google.com/file/d/1He5aUgen6gICrd-PKiNFxQirerIwqgoT/view?usp=sharing",
+        "image": "./images/stats.jpeg",
         "description": "An application that tracked a users workouts stats and exercise; our assignment was to set up the DB with mongoose",
         "link": "https://github.com/sosoberg/workout_tracker"
     },

@@ -4,8 +4,8 @@ function Resume() {
   return (
     <>
          <h3>Download My Resume!</h3>
-            <img src="./assets/images/resume.PNG" alt="myresume"/>
-                <a href="./assets/documents/resume.pdf">Download</a>
+            <img src="./images/resume.PNG" alt="myresume"/>
+                <a href="./documents/Resume.pdf">Download</a>
     </>
   );
 }

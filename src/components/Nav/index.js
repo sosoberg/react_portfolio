@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import './style.css'
-
+import background from '../../images/navdrawing.jpg'
 const Nav = () => {
   return (
     <nav>
-            <Link to='/'>Home</Link>
-            <Link to='/projects'>Projects</Link>
-            <Link to='/resume'>Projects</Link>
+            <div style={{backgroundImage: background}} />
+            <Link className='link' to='/'>Home</Link>
+            <Link className='link' to='/projects'>Projects</Link>
+            <Link className='link' to='/resume'>Resume</Link>
     </nav>
   );
 };

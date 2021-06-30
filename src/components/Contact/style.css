@@ -1,0 +1,29 @@
+.contactModal {
+    position: absolute;
+    width: 45%;
+    right: 10px;
+    background-color: grey;
+    margin: 20px;
+}
+
+.modalHeaders {
+    text-align: center;
+    font-size: 35px;
+}
+
+.iconGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.icon {
+    width: 75%;
+    padding: 20px;
+}
+
+.phone {
+    font-size: 30px;
+    text-align: center;
+    background-color: darkgrey;
+}

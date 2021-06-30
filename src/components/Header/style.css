@@ -1,4 +1,20 @@
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 h1 {
     font-size: 60px;
     padding-left: 20px;
+}
+
+.s {
+    display: inline-block;
+    animation: rotate;
+    animation-duration: 2s;
 }

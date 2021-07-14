@@ -4,41 +4,53 @@
         "name": "Seasons Greetings",
         "image": "./images/seasonsgreetings.jpeg",
         "description": "Second group project during bootcamp that helped the user find ingredients that are in season and meals that they can make with said ingredients",
-        "link": "https://github.com/sosoberg/seasons_greetings"
+        "tech": "HTML | CSS | JavaScript | Node.js | Bcrypt | Express.js | MySQL | Handlebars | Passport | Sequelize.js | Socket.io |",
+        "githubLink": "https://github.com/sosoberg/seasons_greetings",
+        "demoLink": "https://quiet-lowlands-76523.herokuapp.com/"
     },
     {
         "id": 2, 
         "name": "Worth A Shot",
         "image": "./images/project1.jpeg",
         "description": "First group project in bootcamp that helped find a mixed drink when given an alcohol and mixer",
-        "link": "https://github.com/sosoberg/project_1"
+        "tech": "HTML | CSS | JavaScript |",
+        "githubLink": "https://github.com/sosoberg/project_1",
+        "demoLink": "https://sosoberg.github.io/project_1/"
     },
     {
         "id": 3, 
         "name": "Note Taker",
         "image": "./images/notetaker.PNG",
         "description": "A simple application that let a user record and save notes; our task for this assigement was to create and operate the API",
-        "link": "https://github.com/sosoberg/note_taker"
+        "tech": "HTML | CSS | JavaScript | Node.js | Express.js |",
+        "githubLink": "https://github.com/sosoberg/note_taker",
+        "demoLink": "https://shrouded-harbor-35026.herokuapp.com/"
     },
     {
         "id": 4, 
         "name": "Workout Tracker",
         "image": "./images/stats.jpeg",
         "description": "An application that tracked a users workouts stats and exercise; our assignment was to set up the DB with mongoose",
-        "link": "https://github.com/sosoberg/workout_tracker"
+        "tech": "HTML | CSS | JavaScript | Node.js | MongoDB | Mongoose | Express.js |",
+        "githubLink": "https://github.com/sosoberg/workout_tracker",
+        "demoLink": "https://thawing-journey-42255.herokuapp.com/"
     },
     {
         "id": 5, 
         "name": "Tech Blog",
         "image": "./images/tech_blog.jpeg",
         "description": "A blog that a user can log in, create posts, and explore/comment on other users posts; coded from scratch",
-        "link": "https://github.com/sosoberg/tech_blog"
+        "tech": "HTML | CSS | JavaScript | Node.js | Bcrypt | Compression | Express.js | MySQL | Sequelize |",
+        "githubLink": "https://github.com/sosoberg/tech_blog",
+        "demoLink": "https://young-headland-38800.herokuapp.com/"
     },
     {
         "id": 6, 
         "name": "Weather App",
         "image": "./images/weatherpage.jpeg",
-        "description": "A weather app",
-        "link": "https://github.com/sosoberg/weather_app"
+        "description": "A front-end weather app",
+        "tech": "HTML | CSS | JavaScript |",
+        "githubLink": "https://github.com/sosoberg/weather_app",
+        "demoLink": "https://sosoberg.github.io/weather_app/"
     }
 ]

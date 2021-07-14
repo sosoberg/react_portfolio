@@ -1,3 +1,10 @@
+.projectCardGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    font-size: 20px;
+}
+
 .project {
     margin: 15px;
     text-align: center;
@@ -15,9 +22,69 @@
     min-width: 500px;
 }
 
-.link {
+.projectExtra {
+    padding: 25px 20px 60px 20px;
+    margin: 0px 20px 0px 20px;
+    border-top: 2px dashed darkslategray;
+    border-right: 2px dashed darkslategray;
+    border-bottom: 2px dashed darkslategray;
+}
+
+.projectDescriptionHead {
+    border-bottom: 1px solid black;
+    width: 85%;
+}
+
+.techUsedHead {
+    font-weight: bolder;
+}
+
+.techUsed {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.githubLink {
     text-decoration: none;
     font-weight: bolder;
-    color: black;
+    color: white;
     font-size: 25px;
+    background-color: darkslategray;
+    padding: 8px;
+    margin-top: 15px;
+}
+
+.demoLink {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    background-color: teal;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.githubLink:hover {
+    background-color: rgb(37, 61, 61);
+}
+
+.demoLink:hover {
+    background-color: rgb(1, 99, 99);
+}
+
+@media only screen and (max-width: 1270px) {
+    .projectCardGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .projectDescriptionHead {
+        width: 100%;
+    }
+    .projectExtra {
+        border-top: none;
+        border-left: 2px dashed darkslategray;
+        border-right: 2px dashed darkslategray;
+        border-bottom: 2px dashed darkslategray;
+    }
 }

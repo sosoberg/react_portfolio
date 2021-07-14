@@ -1,19 +1,17 @@
 import React from "react";
-import Contact from "../components/Contact";
 
 function Home() {
   return (
     <div className="homeGrid">
         <section>
-            <h2>Biography</h2>
+            <h2>About Me</h2>
                 <p className="bio">
-                    My name is Samuel Oberg and I am an aspiring Developer.
-                     I am currently living and working in the city of Seattle as 
-                    a Corporate Buyer for a supply company, but I am looking to 
+                    An aspiring Software Developer living and working in the city of Seattle as 
+                    a Corporate Buyer for a supply company and looking to 
                     change careers.
                 </p>
                 <p className="bio">
-                    I recently decided to take the leap and joined a full-stack 
+                    Took the leap and joined a full-stack 
                     coding bootcamp hosted by the University of Washington this 
                     past January. I am very excited to see where this experience 
                     will take me.
@@ -27,7 +25,6 @@ function Home() {
                 </p>
         </section>
         <img className="pcImage" src="./images/me.jpg" alt="projectImg"/>
-        <Contact />
     </div>
     
   );

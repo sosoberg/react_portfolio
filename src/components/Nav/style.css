@@ -5,4 +5,10 @@ nav {
 
 .link {
     padding-right: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 8px;
+    margin: 5px;
+    color: black;
 }

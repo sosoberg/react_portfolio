@@ -18,7 +18,9 @@ class Projects extends Component {
                     name={project.name}
                     image={project.image}
                     description={project.description}
-                    link={project.link}
+                    tech={project.tech}
+                    githubLink={project.githubLink}
+                    demoLink={project.demoLink}
                 />
             ))}
             </div>

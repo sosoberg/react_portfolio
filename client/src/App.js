@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 function App() {
     return (
         <Router>
+            <a name='top'></a>
             <div className='headerGrid'>
                 <Header />
                 <Nav />

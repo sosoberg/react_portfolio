@@ -56,7 +56,13 @@ table {
   grid-template-columns: 3fr 1fr;
   align-items: center;
   background-image: url('../images/headerbackground.jpg');
-  background-size: 120%;
+  background-size: 100%;
+}
+
+/* Home */
+
+.profilePicture {
+  width: 50vw;
 }
 
 /* Project Page */
@@ -91,4 +97,24 @@ table {
   font-size: 30px;
   text-align: center;
   background-color: darkgrey;
+}
+
+@media only screen and (max-width: 400px) {
+  .headerGrid {
+    border-bottom: rgba(1, 23, 31, 0.5) 10px solid;
+  }
+  
+  .homeHeader {
+    font-size: 30px;
+    padding: 15px 15px 0px 15px;
+  }
+
+  .bio {
+    font-size: 18px;
+    margin: 15px;
+  }
+
+  .profilePicture {
+    width: 100vw;
+  }
 }

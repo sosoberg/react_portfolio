@@ -4,7 +4,7 @@ import './style.css'
 const Header = () => {
     return (
         <>
-            <h1>
+            <h1 name='headerRef'>
                 <span className="s">S</span><span className="a">a</span>
                 <span className="m">m</span><span className="u">u</span>
                 <span className="e">e</span><span className="l">l</span>

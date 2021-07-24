@@ -1,0 +1,13 @@
+.footer {
+    height: 6vh;
+    background-color: rgba(149, 194, 245, 0.8);
+    color: black;
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 17px;
+    margin-left: 20px;
+}

@@ -123,6 +123,7 @@ h1 {
     font-size: 60px;
     padding-left: 20px;
     margin: 0px;
+    padding: 30px;
 }
 
 h1:hover .s {

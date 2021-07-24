@@ -19,7 +19,6 @@
 
 .pcImage {
     width: 100%;
-    min-width: 500px;
 }
 
 .projectExtra {
@@ -86,5 +85,19 @@
         border-left: 2px dashed darkslategray;
         border-right: 2px dashed darkslategray;
         border-bottom: 2px dashed darkslategray;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .pcImage {
+        min-width: none;
+    }
+
+    .projectExtra {
+        padding-bottom: 20px;
+    }
+
+    .projectButtons {
+        margin-top: 20px;
     }
 }

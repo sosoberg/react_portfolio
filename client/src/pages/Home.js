@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="homeGrid">
         <section>
-            <h2>About Me</h2>
+            <h2 className='homeHeader'>About Me</h2>
                 <p className="bio">
                     An aspiring Software Developer living and working in the city of Seattle as 
                     a Corporate Buyer for a supply company and looking to 
@@ -24,7 +24,7 @@ function Home() {
                      around JS.
                 </p>
         </section>
-        <img className="pcImage" src="./images/me.jpg" alt="projectImg"/>
+        <img className="profilePicture" src="./images/me.jpg" alt="projectImg"/>
     </div>
     
   );

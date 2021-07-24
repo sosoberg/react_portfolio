@@ -1,6 +1,5 @@
 nav {
     padding: 25px;
-    background-color: grey;
 }
 
 .link {
@@ -11,4 +10,17 @@ nav {
     padding: 8px;
     margin: 5px;
     color: black;
+}
+
+.drawer {
+    display: none;
+}
+
+@media only screen and (max-width: 540px) {
+    .drawer {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
 }

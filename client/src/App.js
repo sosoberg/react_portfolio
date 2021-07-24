@@ -14,9 +14,10 @@ import Footer from './components/Footer';
 function App() {
     return (
         <Router>
-            <div>
+            <div className='headerGrid'>
                 <Header />
                 <Nav />
+            </div>
                 <Switch>
                     <Route exact path='/' component={ Home } />
                     <Route exact path='/projects' component={ Projects } />
@@ -24,7 +25,6 @@ function App() {
                     <Route exact path='/contact' component={ Contact } />
                 </Switch>
                 <Footer />
-            </div>
         </Router>
     )
 }

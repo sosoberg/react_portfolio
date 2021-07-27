@@ -65,6 +65,12 @@ table {
   width: 50vw;
 }
 
+.imgTechGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+}
+
 /* Project Page */
 
 .projectGrid {
@@ -138,6 +144,12 @@ table {
     height: 325px;
     width: 275px;
     margin: auto;
+  }
+
+  .imgTechGrid {
+    grid-template-columns: 1fr;
+    margin: 0px;
+    padding-bottom: 55px;
   }
   
 }

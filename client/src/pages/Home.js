@@ -1,4 +1,5 @@
 import React from "react";
+import TechnologyCard from "../components/TechnologyCard";
 
 function Home() {
   return (
@@ -24,7 +25,10 @@ function Home() {
                      around JS.
                 </p>
         </section>
-        <img className="profilePicture" src="./images/me.jpg" alt="projectImg"/>
+        <div className='imgTechGrid'>
+            <img className="profilePicture" src="./images/me.jpg" alt="projectImg"/>
+            <TechnologyCard />
+        </div>
     </div>
     
   );

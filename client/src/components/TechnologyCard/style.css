@@ -1,0 +1,30 @@
+.techCardGrid {
+    display: grid;
+    top: 350px;
+    right: 50px;
+    background-color: antiquewhite;
+    margin: 15px 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.techDivHeader {
+    font-size: 30px;
+    margin: 30px 30px 10px 30px;
+}
+
+.technologies {
+    margin: 0px 20px 20px 20px;
+    font-size: 20px;
+    border: 2px black solid;
+    padding-bottom: 10px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul p {
+    padding: 3px;
+    margin-left: 25px;
+}

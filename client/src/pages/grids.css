@@ -67,8 +67,15 @@ table {
 
 /* Project Page */
 
+.projectGrid {
+  background-image: url('../images/projectpagebackground.jpeg');
+  background-size: 300%;
+  background-attachment: fixed;
+  background-position: center -200px;
+}
 
 /* Contact Page */
+
 .contactModal {
   position: absolute;
   width: 45%;
@@ -99,6 +106,9 @@ table {
   background-color: darkgrey;
 }
 
+/* Resume */
+
+
 @media only screen and (max-width: 400px) {
   .headerGrid {
     border-bottom: rgba(1, 23, 31, 0.5) 10px solid;
@@ -117,4 +127,17 @@ table {
   .profilePicture {
     width: 100vw;
   }
+
+  .resumeDiv {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;  
+  }
+
+  .resumeImage {
+    height: 325px;
+    width: 275px;
+    margin: auto;
+  }
+  
 }

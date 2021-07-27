@@ -6,7 +6,7 @@
 }
 
 .project {
-    margin: 15px;
+    margin: 5px;
     text-align: center;
 }
 
@@ -14,19 +14,26 @@
     margin: 0px;
     text-align: center;
     padding: 18px;
-    background-color: antiquewhite;
+    background-color: rgba(112, 182, 247, 0.75);
+    border: 2px solid darkslateblue;
+    margin-bottom: 2px;
+    background-image: url('../../images/projectheaderbackground.jpeg');
+    background-size: 100%;
 }
 
 .pcImage {
     width: 100%;
+    padding-bottom: 10px;
+    border-bottom: solid black 2px;
 }
 
 .projectExtra {
     padding: 25px 20px 60px 20px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 10px 0px 10px;
     border-top: 2px dashed darkslategray;
     border-right: 2px dashed darkslategray;
     border-bottom: 2px dashed darkslategray;
+    background-color: rgb(173, 216, 230, .75)
 }
 
 .projectDescriptionHead {
@@ -85,6 +92,7 @@
         border-left: 2px dashed darkslategray;
         border-right: 2px dashed darkslategray;
         border-bottom: 2px dashed darkslategray;
+        border-top: 3px darkslategray solid;
     }
 }
 
@@ -95,6 +103,7 @@
 
     .projectExtra {
         padding-bottom: 20px;
+        margin: 0px 10px 60px 10px;
     }
 
     .projectButtons {

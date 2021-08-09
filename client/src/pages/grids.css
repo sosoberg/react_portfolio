@@ -61,14 +61,39 @@ table {
 
 /* Home */
 
+.homeHeader {
+  font-size: 35px;
+  padding: 20px;
+}
+
+.bio {
+  font-size: 25px;
+  padding: 15px 30px 0px 30px;
+}
+
+.bioDiv {
+  width: 60vw;
+}
+
 .profilePicture {
-  width: 50vw;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+.techAside {
+  width: 35vw;
+  position: absolute;
+  right: 0px;
+  top: 150px;
 }
 
 .imgTechGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 20px;
+  align-items: center;
 }
 
 /* Project Page */

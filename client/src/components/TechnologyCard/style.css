@@ -1,6 +1,6 @@
 .techCardGrid {
     display: grid;
-    background-color: antiquewhite;
+    background-color: rgba(179, 250, 189, 0.5);
     margin: 15px;
     font-family: 'Courier New', Courier, monospace;
     height: 70vh;

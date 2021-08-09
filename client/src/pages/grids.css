@@ -49,6 +49,12 @@ table {
 	border-spacing: 0;
 }
 
+body {
+  background-image: url('../images/background.jpg');
+  background-size: 100%;
+}
+
+
 /* App.js */
 
 .headerGrid {
@@ -68,11 +74,13 @@ table {
 
 .bio {
   font-size: 25px;
-  padding: 15px 30px 0px 30px;
 }
 
 .bioDiv {
-  width: 60vw;
+  width: 50vw;
+  background-color: rgb(247, 235, 221, 0.4);
+  padding: 40px;
+  margin: 40px;
 }
 
 .profilePicture {

@@ -4,7 +4,7 @@ import './style.css'
 const Header = () => {
     return (
         <>
-            <h1>SO</h1>
+            <h1 className='mainHeader'>S | Oberg</h1>
         </>
     )
 }

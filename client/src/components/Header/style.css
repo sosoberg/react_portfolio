@@ -1,5 +1,5 @@
 
-@keyframes rotates {
+/* @keyframes rotates {
     0%   {left:0px; top:0px;}
     25%  {left:-200px; top:-200px;}
     75%  {left:-200px; top:-200px;}
@@ -117,7 +117,7 @@
     10%  {right: -400px; bottom: 150px;}
     75%  {right: -400px; bottom: 150px;}
     100% {right:0px; bottom:0px;}
-}
+} */
 
 h1 {
     font-size: 60px;
@@ -126,7 +126,7 @@ h1 {
     padding: 30px;
 }
 
-h1:hover .s {
+/* h1:hover .s {
     display: inline-block;
     position: relative;
     animation: rotates;
@@ -211,4 +211,4 @@ h1:hover .g {
     animation: rotateg;
     animation-duration: 2s;
     animation-delay: 1.8s;
-}
+} */

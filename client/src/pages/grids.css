@@ -50,38 +50,54 @@ table {
 }
 
 body {
-  background-image: url('../images/background.jpg');
-  background-size: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
 /* App.js */
 
 .headerGrid {
   display: grid;
   grid-template-columns: 3fr 1fr;
   align-items: center;
-  background-image: url('../images/headerbackground.jpg');
   background-size: 100%;
 }
 
 /* Home */
 
-.homeHeader {
-  font-size: 35px;
-  padding: 35px 20px 0px 30px;
+.introduction {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 300px;
+  line-height: 1.6;
 }
 
-.bio {
+.mountainImage {
+  width: 75vw;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.homeHeader {
   font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 75px;
+  font-weight: bold;
 }
 
 .bioDiv {
-  width: 45vw;
-  background-color: rgb(247, 235, 221, 0.4);
-  padding: 40px;
-  margin: 40px;
-  float: left;
+  margin-left: 250px;
+  margin-right: 250px;
+  line-height: 1.6;
+}
+
+.bio {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.techAside {
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .profilePicture {
@@ -89,17 +105,13 @@ body {
   margin: 50px;
   padding: 4px;
   position: absolute;
-  right: 650px;
+  right: 675px;
   top: 430px;
   border: 2px solid rgba(7, 7, 7, 0.8);
   border-radius: 2px;
-}
-
-.techAside {
-  width: 35vw;
-  position: absolute;
-  right: 0px;
-  top: 150px;
+  border-radius: 50px;
+  opacity: .95;
+  display: none;
 }
 
 .imgTechGrid {

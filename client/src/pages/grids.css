@@ -69,16 +69,15 @@ body {
 
 .homeHeader {
   font-size: 35px;
-  padding: 20px;
+  padding: 35px 20px 0px 30px;
 }
 
 .bio {
   font-size: 25px;
-  
 }
 
 .bioDiv {
-  width: 50vw;
+  width: 45vw;
   background-color: rgb(247, 235, 221, 0.4);
   padding: 40px;
   margin: 40px;
@@ -86,11 +85,14 @@ body {
 }
 
 .profilePicture {
-  width: 30vw;
-  padding: 50px;
+  width: 20vw;
+  margin: 50px;
+  padding: 4px;
   position: absolute;
-  right: 700px;
-  top: 400px;
+  right: 650px;
+  top: 430px;
+  border: 2px solid rgba(7, 7, 7, 0.8);
+  border-radius: 2px;
 }
 
 .techAside {

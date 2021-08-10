@@ -13,7 +13,7 @@ function TechnologyCard() {
             <h3 className='techDivHeader'>Technological Experience</h3>
                 <div className='technologies'>
                     <IconButton className='iconFooter'>
-                        <CodeIcon style={{color: "black"}} />
+                        <CodeIcon style={{color: "white"}} />
                     </IconButton>
                     <ul>
                         <p>HTML</p>
@@ -23,7 +23,7 @@ function TechnologyCard() {
                 </div>
                 <div className='technologies'>
                     <IconButton className='iconFooter'>
-                        <DnsIcon style={{color: "black"}} />
+                        <DnsIcon style={{color: "white"}} />
                     </IconButton>
                     <ul>
                         <p>MySQL</p>
@@ -35,7 +35,7 @@ function TechnologyCard() {
                 </div>
                 <div className='technologies'>
                     <IconButton className='iconFooter'>
-                        <ExtensionIcon style={{color: "black"}} />
+                        <ExtensionIcon style={{color: "white"}} />
                     </IconButton>
                         <ul>
                             <p>React.js</p>

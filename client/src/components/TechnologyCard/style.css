@@ -1,9 +1,10 @@
 .techCardGrid {
     display: grid;
-    background-color: rgba(179, 250, 189, 0.5);
+    background-color: rgba(33, 30, 58, 0.6);
     margin: 15px;
     font-family: 'Courier New', Courier, monospace;
     height: 70vh;
+    color: white;
 }
 
 .techDivHeader {
@@ -14,8 +15,12 @@
 .technologies {
     margin: 0px 20px 20px 20px;
     font-size: 20px;
-    border: 2px black solid;
+    border: 4px black solid;
     padding-bottom: 10px;
+}
+
+.iconFooter {
+    border-bottom: 2px solid black;
 }
 
 ul {

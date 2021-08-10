@@ -25,9 +25,9 @@ function Home() {
                         progress to studying REACT and several other programs centered
                         around JS.
                     </p>
+                    <img className="profilePicture" src="./images/me.jpg" alt="projectImg"/>
                 </div>
         </section>
-            <img className="profilePicture" src="./images/me.jpg" alt="projectImg"/>
             <div class="techAside">
                 <TechnologyCard />
             </div>

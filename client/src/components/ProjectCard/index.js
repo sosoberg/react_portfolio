@@ -8,8 +8,10 @@ function ProjectCard(props) {
             <section className="project">
                 <div className='imageDiv'>
                     <img className='pcImage' src={props.image} alt="projectImg"/>
-                        <p className='techUsedHead'>{props.name}</p>
-                        <p className='techUsed'><span className='boldspan'>Technology Used: </span>{props.tech}</p>
+                        <div className='techUsedDiv'>
+                            <p className='techUsedHead'>{props.name}</p>
+                            <p className='techUsed'><span className='boldspan'>Technology Used: </span>{props.tech}</p>
+                        </div>
                 </div>
             </section>
             {/* <aside className='projectExtra'>

@@ -19,10 +19,10 @@ const Nav = () => {
   return (
     <nav>
           <div className='navbar'>
-            <Link className='link' to='/'>Home</Link>
-            <Link className='link' to='/projects'>Projects</Link>
-            <Link className='link' to='/resume'>Resume</Link>
-            <Link className='link' to='/contact'>Contact</Link>
+            <Link className='link' to='/react_portfolio'>Home</Link>
+            <Link className='link' to='/react_portfolio/projects'>Projects</Link>
+            <Link className='link' to='/react_portfolio/resume'>Resume</Link>
+            <Link className='link' to='/react_portfolio/contact'>Contact</Link>
           </div>
             <div className='drawer'>
               <Drawers open={state} handleClose={handleDrawerClose} />

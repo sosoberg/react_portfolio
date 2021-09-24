@@ -1,25 +1,35 @@
 import React from "react";
 
+import Resume from "../components/Resume"
+
 function Contact() {
   return (
-    <aside>
+    <aside className="contactGrid">
         <div className="contactModal">
+            
             <h3 className="modalHeaders">Contact Me</h3>
-                <div className="iconGrid">
-                    <a href="https://github.com/sosoberg">
-                        <img className="icon" src="./images/githubicon.png" alt="Sams Git Hub" />
-                    </a>  
-                    <a href="https://www.linkedin.com/in/samuel-oberg-00b228110/">   
-                        <img className="icon" src="./images/linkedicon.png" alt="SamsLinkedIn" />         
-                    </a>
-                    <a href="mailto:samuelcoberg@gmail.com">   
-                        <img className="icon" src="./images/gmailicon.png" alt="SamsEmail" />         
-                    </a>
-                </div>
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+                <input type="submit" value="Submit" />
+
+            </form>
+
                 <div>
-                    <p className="phone">My Phone: 509-885-6067</p>
+                    <p className="phone">Phone: 509-885-6067</p>
+                    <p className="phone">Email: <a href="mailto:samuelcoberg@gmail.com">samuelcoberg@gmail.com</a></p>
                 </div>
         </div>
+        
+        <Resume />
     </aside>
   );
 }

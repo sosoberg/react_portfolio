@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // pages
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Resume from './pages/Resume';
 import Contact from './pages/Contact'
+import Blog from './pages/Blog'
 //components
 import Nav from './components/Nav';
 import Header from './components/Header';
@@ -22,8 +22,8 @@ function App() {
                 <Switch>
                     <Route exact path='/react_portfolio/' component={ Home } />
                     <Route exact path='/react_portfolio/projects' component={ Projects } />
-                    <Route exact path='/react_portfolio/resume' component={ Resume } />
                     <Route exact path='/react_portfolio/contact' component={ Contact } />
+                    <Route exact path='/react_portfolio/blog' component={ Blog } />
                 </Switch>
                 <Footer />
         </Router>

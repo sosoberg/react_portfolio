@@ -21,8 +21,8 @@ const Nav = () => {
           <div className='navbar'>
             <Link className='link' to='/react_portfolio/'>Home</Link>
             <Link className='link' to='/react_portfolio/projects'>Projects</Link>
-            <Link className='link' to='/react_portfolio/resume'>Resume</Link>
             <Link className='link' to='/react_portfolio/contact'>Contact</Link>
+            <Link className='link' to='/react_portfolio/blog'>Blog</Link>
           </div>
             <div className='drawer'>
               <Drawers open={state} handleClose={handleDrawerClose} />

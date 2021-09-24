@@ -183,6 +183,42 @@ input[type=submit]:hover {
   font-size: 30px;
 }
 
+/* Blog Page */
+
+.blogPageContain {
+  font-size: 19px;
+}
+
+.blogPageHeader {
+  padding: 15px;
+  font-size: 35px;
+}
+
+.blogContain {
+  width: 85vw;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  border: 2px rgba(3, 3, 3, 0.459) solid;
+  margin-bottom: 50px;
+}
+
+.blogDate {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.blogHeader {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.blogBody {
+  padding: 10px 50px 10px 50px;
+  line-height: 1.4;
+}
 
 @media only screen and (max-width: 400px) {
   .headerGrid {

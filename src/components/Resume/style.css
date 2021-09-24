@@ -1,0 +1,41 @@
+
+.resumeDiv {
+    align-items: center;
+    text-align: center;
+}
+
+.resumeHeader {
+    padding: 15px;
+    font-size: 35px;
+}
+
+.resumeContain {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+}
+
+.resumeImage{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.resumeBtnContain {
+    padding: 40px;
+}
+
+.resumeDnldBtn {
+    background-color: #c2e20a;
+    color: black;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.resumeDnldBtn:hover {
+    background-color: #b7d608;
+}
+

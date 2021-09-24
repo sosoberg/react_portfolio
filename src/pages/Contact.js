@@ -16,6 +16,9 @@ function Contact() {
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
 
+                <label for="lname">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject line.." />
+
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
 

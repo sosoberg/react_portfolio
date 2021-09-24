@@ -19,7 +19,7 @@ const Nav = () => {
   return (
     <nav>
           <div className='navbar'>
-            <Link className='link' to='/react_portfolio'>Home</Link>
+            <Link className='link' to='/react_portfolio/'>Home</Link>
             <Link className='link' to='/react_portfolio/projects'>Projects</Link>
             <Link className='link' to='/react_portfolio/resume'>Resume</Link>
             <Link className='link' to='/react_portfolio/contact'>Contact</Link>

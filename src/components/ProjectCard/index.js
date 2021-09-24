@@ -14,17 +14,6 @@ function ProjectCard(props) {
                         </div>
                 </div>
             </section>
-            {/* <aside className='projectExtra'>
-            <h2 className="pcHeader">{props.name}</h2>
-                <p className='projectDescriptionHead'>Project Description</p>
-                
-                    <p>{props.description}</p>
-                    <p className='techUsedHead'>Technologies Used:</p>
-                    <p className='techUsed'>{props.tech}</p>
-                    <div className='projectButtons'>
-                        <a className="githubLink" href={props.githubLink}>Github</a><a className="demoLink" href={props.demoLink}>Demo</a>
-                    </div>
-            </aside> */}
         </div>
     );
 };

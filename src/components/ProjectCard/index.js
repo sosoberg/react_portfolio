@@ -1,8 +1,19 @@
 import React from "react";
 import './style.css'
 
-function ProjectCard(props) {
+import ProjectPage from "../ProjectPage";
 
+function btnHandler() {
+
+    const displayPage = document.querySelectorAll("[id='projectPageDisplay']")
+    
+    for (let i = 0; i < displayPage.length; i++) {
+        displayPage[i].style.display = 'block'
+    }
+    
+}
+
+function ProjectCard(props) {
     return (
         <div className='projectCardGrid'>
             <section className="project">
@@ -13,6 +24,17 @@ function ProjectCard(props) {
                             <p className='techUsed'><span className='boldspan'>Technology Used: </span>{props.tech}</p>
                         </div>
                 </div>
+                <button className="projectBtn" onClick={btnHandler}>View More</button>
+                <ProjectPage 
+                    key={props.id}
+                    id={props.id}
+                    name={props.name}
+                    image={props.image}
+                    description={props.description}
+                    tech={props.tech}
+                    githubLink={props.githubLink}
+                    demoLink={props.demoLink}
+                />
             </section>
         </div>
     );

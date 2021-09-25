@@ -7,28 +7,16 @@ function Contact() {
     <aside className="contactGrid">
         <div className="contactModal">
             
-            <h3 className="modalHeaders">Contact Me</h3>
-            <form action="action_page.php">
-
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." />
-
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
-
-                <label for="lname">Subject</label>
-                <input type="text" id="subject" name="subject" placeholder="Subject line.." />
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-
-                <input type="submit" value="Submit" />
-
-            </form>
-
-                <div>
-                    <p className="phone">Phone: 509-885-6067</p>
-                    <p className="phone">Email: <a href="mailto:samuelcoberg@gmail.com">samuelcoberg@gmail.com</a></p>
+            <h3 className="modalHeaders">Please feel free to reach out if you have any questions or work opportunities</h3>
+                <div className='contactInfo'>
+                    <p className="phone">Phone</p>
+                      <p className='linkPage'>509-885-6067</p>
+                    <p className="phone">Email</p>
+                      <p className='linkPage'><a className='linkPage' href="mailto:samuelcoberg@gmail.com">samuelcoberg@gmail.com</a></p>
+                    <p className="phone">Github</p>
+                      <p className='linkPage'><a className='linkPage' href="https://github.com/sosoberg">sosoberg</a></p>
+                    <p className="phone">LinkedIn</p>
+                      <p className='linkPage'><a href="https://www.linkedin.com/in/samuel-oberg-00b228110/">Samuel Oberg</a></p>
                 </div>
         </div>
         

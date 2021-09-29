@@ -24,9 +24,13 @@ function ProjectPage(props) {
     return (
         <>
             <section id='projectPageDisplay' className='displayNone'>
-                    <div className='imageDiv'>
-                        <img className='pcImage' src={props.image} alt="projectImg"/>
-                            
+                    <div className='imageDiv2'>
+                        <img className='pcImage2' src={props.image} alt="projectImg" />
+                            <div className='pseudoRelative'>
+                                <p className='projectDescription'>{props.description}</p>
+                                <a href={props.githubLink} className='githubLink'>Github</a>
+                                <a href={props.demoLink} className='demoLink'>Demo</a>
+                            </div>
                             <div className='techUsedDiv'>
                                 <p className='techUsedHead'>{props.name}</p>
                                 <p className='techUsed'><span className='boldspan'>Technology Used: </span>{props.tech}</p>

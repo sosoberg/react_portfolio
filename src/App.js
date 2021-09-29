@@ -10,6 +10,7 @@ import Blog from './pages/Blog'
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ProjectPage from './components/ProjectPage';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                     <Route exact path='/react_portfolio/projects' component={ Projects } />
                     <Route exact path='/react_portfolio/contact' component={ Contact } />
                     <Route exact path='/react_portfolio/blog' component={ Blog } />
+                    <Route exact path='/react_portfolio/projectpage' component={ ProjectPage } />
                 </Switch>
                 <Footer />
         </Router>

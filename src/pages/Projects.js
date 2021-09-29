@@ -10,7 +10,7 @@ class Projects extends Component {
 
     render () {
         return (
-            <div className="projectGrid">
+            <div id="projectGrid">
             {this.state.projects.map(project => (
                 <ProjectCard 
                     key={project.id}

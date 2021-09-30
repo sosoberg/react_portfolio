@@ -67,14 +67,14 @@ body {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
-  margin: 100px 300px;
+  margin: 100px 10vw;
   line-height: 1.4;
 }
 
 .mountainImage {
   width: 75vw;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
 }
 
 .homeHeader {
@@ -85,8 +85,8 @@ body {
 }
 
 .bioDiv {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 15vw;
+  margin-right: 15vw;
   line-height: 1.6;
 }
 
@@ -96,8 +96,8 @@ body {
 }
 
 .techAside {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 13vw;
+  margin-right: 13vw;
 }
 
 .profilePicture {
@@ -193,7 +193,6 @@ body {
   width: 85vw;
   margin-right: auto;
   margin-left: auto;
-  padding: 20px;
   border: 2px rgba(3, 3, 3, 0.459) solid;
   margin-bottom: 50px;
 }
@@ -211,15 +210,38 @@ body {
 }
 
 .blogBody {
-  padding: 10px 50px 10px 50px;
+  padding: 10px 5vw 10px 5vw;
   line-height: 1.4;
 }
 
-@media only screen and (max-width: 400px) {
-  .headerGrid {
-    border-bottom: rgba(1, 23, 31, 0.5) 10px solid;
+@media only screen and (max-width: 1450px) {
+  #projectGrid {
+    grid-template-columns: 1fr;
   }
-  
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .introduction {
+    font-size: 35px;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .introduction {
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .headerGrid {
+    grid-template-columns: 6fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 400px) {
   .homeHeader {
     font-size: 30px;
     padding: 15px 15px 0px 15px;

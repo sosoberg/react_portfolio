@@ -1,3 +1,5 @@
+
+
 .imageDiv2 {
     margin: 50px 50px 0px 50px;
 }
@@ -9,28 +11,28 @@
     height: 600px; /* height of container */
     object-fit: cover;
     filter: blur(2px);
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .pseudoRelative{
     position: relative;
     width: 0;
     height: 0;
-    top: -300px;
-    left: 10vw;
+    top: -500px;
+    left: 100px;
 }
 
 .projectDescription{
-    position: absolute;
+    position: relative;
     width: 500px;
 }
 
 .githubLink {
     position: relative;
-    top: 60px;
+    top: 375px;
 }
 
 .demoLink {
     position: relative;
-    top: 60px;
+    top: 375px;
 }

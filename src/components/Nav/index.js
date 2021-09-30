@@ -31,7 +31,7 @@ const Nav = () => {
                   aria-haspopup="true"
                   onClick={handleOpen}
                 >
-                  <MenuIcon style={{ color: "white" }} />
+                  <MenuIcon style={{ color: "black" }} />
                 </IconButton>
             </div>
     </nav>

@@ -27,9 +27,11 @@ function ProjectPage(props) {
                     <div className='imageDiv2'>
                         <img className='pcImage2' src={props.image} alt="projectImg" />
                             <div className='pseudoRelative'>
-                                <p className='projectDescription'>{props.description}</p>
-                                <a href={props.githubLink} className='githubLink'>Github</a>
-                                <a href={props.demoLink} className='demoLink'>Demo</a>
+                                <div className='projectDescription'>
+                                    <p>{props.description}</p>
+                                    <a href={props.githubLink} className='githubLink' target='_black'>Github</a>
+                                    <a href={props.demoLink} className='demoLink' target='_black'>Demo</a>
+                                </div>
                             </div>
                             <div className='techUsedDiv'>
                                 <p className='techUsedHead'>{props.name}</p>

@@ -13,22 +13,22 @@ import ListItemText from "@material-ui/core/ListItemText";
 import "./style.css";
 
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
-import DescriptionIcon from '@material-ui/icons/Description';
+import BookIcon from "@material-ui/icons/Book";
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 
 export default function Drawers(props) {
   return (
     <>
-      <Drawer anchor={"right"} open={props.open} onClose={props.handleClose}>
+      <Drawer anchor={"right"} open={props.open} onClose={props.handleClose} >
         <div role="presentation" onClick={props.handleClose}>
           <List>
             <ListItem button>
               <ListItemIcon>
-                <Link className="DrawerRouterLink" to="/">
+                <Link className="DrawerRouterLink" to="/react_portfolio/">
                   <HomeIcon className="DrawerIcons" />
                 </Link>
               </ListItemIcon>
-              <Link className="DrawerRouterLink" to="/">
+              <Link className="DrawerRouterLink" to="/react_portfolio/">
                 <ListItemText primary={"Home Page"} />
               </Link>
             </ListItem>
@@ -36,11 +36,11 @@ export default function Drawers(props) {
 
             <ListItem button>
               <ListItemIcon>
-                <Link className="DrawerRouterLink" to="/projects">
+                <Link className="DrawerRouterLink" to="/react_portfolio/projects">
                   <AccountTreeIcon className="DrawerIcons" />
                 </Link>
               </ListItemIcon>
-              <Link className="DrawerRouterLink" to="/projects">
+              <Link className="DrawerRouterLink" to="/react_portfolio/projects">
                 <ListItemText primary={"Projects"} />
               </Link>
             </ListItem>
@@ -48,24 +48,24 @@ export default function Drawers(props) {
 
             <ListItem button>
               <ListItemIcon>
-                <Link className="DrawerRouterLink" to="/resume">
-                  <DescriptionIcon className="DrawerIcons" />
+                <Link className="DrawerRouterLink" to="/react_portfolio/contact">
+                  <ContactMailIcon className="DrawerIcons" />
                 </Link>
               </ListItemIcon>
-              <Link className="DrawerRouterLink" to="/resume">
-                <ListItemText primary={"Resume"} />
+              <Link className="DrawerRouterLink" to="/react_portfolio/contact">
+                <ListItemText primary={"Contact"} />
               </Link>
             </ListItem>
             <Divider />
 
             <ListItem button>
               <ListItemIcon>
-                <Link className="DrawerRouterLink" to="/contact">
-                  <ContactMailIcon className="DrawerIcons" />
+                <Link className="DrawerRouterLink" to="/react_portfolio/blog">
+                  <BookIcon className="DrawerIcons" />
                 </Link>
               </ListItemIcon>
-              <Link className="DrawerRouterLink" to="/contact">
-                <ListItemText primary={"Contact"} />
+              <Link className="DrawerRouterLink" to="/react_portfolio/blog">
+                <ListItemText primary={"Blog"} />
               </Link>
             </ListItem>
             <Divider />

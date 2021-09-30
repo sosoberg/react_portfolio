@@ -2,8 +2,15 @@
 
 .imageDiv2 {
     margin: 50px 50px 0px 50px;
+    
 }
 
+.positionControl {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .pcImage2 {
     border-radius: 25px;
     border: 1px solid grey;
@@ -18,21 +25,106 @@
     position: relative;
     width: 0;
     height: 0;
-    top: -500px;
-    left: 100px;
+    bottom: 500px;
+    left: 5vw;
+    text-align: left;
 }
 
 .projectDescription{
-    position: relative;
     width: 500px;
 }
 
 .githubLink {
     position: relative;
-    top: 375px;
+    bottom: -50px;
 }
 
 .demoLink {
     position: relative;
-    top: 375px;
+    bottom: -50px;
+}
+
+@media only screen and (max-width: 730px) {
+    .pcImage2 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .positionControl {
+        width: 500px;
+        height: 500px;
+    }
+
+    .projectDescription{
+        width: 400px;
+    }
+
+    .pseudoRelative {
+        top: -400px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .pcImage2 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .positionControl {
+        width: 400px;
+        height: 400px;
+    }
+
+    .projectDescription{
+        width: 300px;
+    }
+
+    .pseudoRelative {
+        top: -350px;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    .pcImage2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .positionControl {
+        width: 300px;
+        height: 300px;
+    }
+
+    .projectDescription{
+        width: 200px;
+    }
+
+    .pseudoRelative {
+        top: -250px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .imageDiv2 {
+        margin: 20px 20px 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .imageDiv2 {
+        margin: 5px 5px 0px 5px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .pcImage2 {
+        min-width: none;
+    }
+    
 }

@@ -18,6 +18,7 @@ class Projects extends Component {
                     name={project.name}
                     image={project.image}
                     description={project.description}
+                    description2={project.description2}
                     tech={project.tech}
                     githubLink={project.githubLink}
                     demoLink={project.demoLink}

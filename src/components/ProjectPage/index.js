@@ -30,6 +30,7 @@ function ProjectPage(props) {
                             <div className='pseudoRelative'>
                                 <div className='projectDescription'>
                                     <p className='description'>{props.description}</p>
+                                    <p className='description2'>{props.description2}</p>
                                     <a href={props.githubLink} className='githubLink' target='_black'>Github</a>
                                     <a href={props.demoLink} className='demoLink' target='_black'>Demo</a>
                                 </div>

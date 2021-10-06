@@ -26,7 +26,7 @@
     width: 0;
     height: 0;
     bottom: 500px;
-    left: 5vw;
+    left: 3vw;
     text-align: left;
 }
 
@@ -60,7 +60,7 @@
     }
 
     .pseudoRelative {
-        top: -400px;
+        top: -475px;
     }
 }
 
@@ -76,11 +76,18 @@
     }
 
     .projectDescription{
-        width: 300px;
+        width: 350px;
     }
 
     .pseudoRelative {
-        top: -350px;
+        top: -375px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+    .description2 {
+        font-size: 17px;
     }
 
 }
@@ -97,15 +104,34 @@
     }
 
     .projectDescription{
-        width: 200px;
+        width: 275px;
     }
 
     .pseudoRelative {
-        top: -250px;
+        top: -285px;
     }
 
     .description {
         font-size: 15px;
+    }
+    .description2 {
+        font-size: 15px;
+    }
+
+    .githubLink {
+        position: absolute;
+        height: 30px;
+        top: 40px;
+        right: -375px;
+        transform: rotate(90deg);
+    }
+
+    .demoLink {
+        position: absolute;
+        height: 30px;
+        top: 165px;
+        right: -375px;
+        transform: rotate(90deg);
     }
 }
 

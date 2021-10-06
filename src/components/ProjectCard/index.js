@@ -34,6 +34,7 @@ function ProjectCard(props) {
                     name={props.name}
                     image={props.image}
                     description={props.description}
+                    description2={props.description2}
                     tech={props.tech}
                     githubLink={props.githubLink}
                     demoLink={props.demoLink}

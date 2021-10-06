@@ -3,7 +3,8 @@
         "id": 1, 
         "name": "Seasons Greetings",
         "image": "./images/seasonsgreetings.jpeg",
-        "description": "Second group project during bootcamp that helped the user find ingredients that are in season and meals that they can make with said ingredients",
+        "description": "This was our second group project during the UW Coding Bootcamp. We were instructed to create a full stack website that accomplished a task. Our website, Season Greetings, is a simple website that helps users find fresh product that is currently in season in their state, and then offers different recipes that the user can look at to make a special meal.",
+        "description2": "We created our own data for the produce, and then MealDB as an API for accessing the recipes. Our stack was Node.js back-end, JavaScript front-end, and MySQL for the database. We used Handlebars.js to manipulate the HTML, a stepping stone into learning REACT",
         "tech": "HTML | CSS | JavaScript | Node.js | Bcrypt | Express.js | MySQL | Handlebars | Passport | Sequelize.js | Socket.io |",
         "githubLink": "https://github.com/sosoberg/seasons_greetings",
         "demoLink": "https://quiet-lowlands-76523.herokuapp.com/"
@@ -12,7 +13,8 @@
         "id": 2, 
         "name": "Worth A Shot",
         "image": "./images/project1.jpeg",
-        "description": "First group project in bootcamp that helped find a mixed drink when given an alcohol and mixer",
+        "description": "This was our first group project during the UW Coding Bootcamp. We were only intructed to create a front-end website that accomplished a task. Worth a Shot makes it easy for a user to find a fun drink to make when they have run short of ideas. Just select a hard alcohol with a chaser, and we will give you recipes along with a video tutorial.",
+        "description2":"We used MealDB for the recipes, along with the Youtube API to access video tutorials. As this was our first project, we only used HTML, CSS, and JavaScript to create an interactive front-end.",
         "tech": "HTML | CSS | JavaScript |",
         "githubLink": "https://github.com/sosoberg/project_1",
         "demoLink": "https://sosoberg.github.io/project_1/"
@@ -22,6 +24,7 @@
         "name": "Note Taker",
         "image": "./images/notetaker.PNG",
         "description": "A simple application that let a user record and save notes; our task for this assigement was to create and operate the API",
+        "description2":"",
         "tech": "HTML | CSS | JavaScript | Node.js | Express.js |",
         "githubLink": "https://github.com/sosoberg/note_taker",
         "demoLink": "https://shrouded-harbor-35026.herokuapp.com/"
@@ -31,6 +34,7 @@
         "name": "Workout Tracker",
         "image": "./images/stats.jpeg",
         "description": "An application that tracked a users workouts stats and exercise; our assignment was to set up the DB with mongoose",
+        "description2":"",
         "tech": "HTML | CSS | JavaScript | Node.js | MongoDB | Mongoose | Express.js |",
         "githubLink": "https://github.com/sosoberg/workout_tracker",
         "demoLink": "https://thawing-journey-42255.herokuapp.com/"
@@ -40,6 +44,7 @@
         "name": "Tech Blog",
         "image": "./images/tech_blog.jpeg",
         "description": "A blog that a user can log in, create posts, and explore/comment on other users posts; coded from scratch",
+        "description2":"",
         "tech": "HTML | CSS | JavaScript | Node.js | Bcrypt | Compression | Express.js | MySQL | Sequelize |",
         "githubLink": "https://github.com/sosoberg/tech_blog",
         "demoLink": "https://young-headland-38800.herokuapp.com/"
@@ -48,7 +53,8 @@
         "id": 6, 
         "name": "Weather App",
         "image": "./images/weatherpage.jpeg",
-        "description": "A front-end weather app",
+        "description": "A front-end weather app. This homework assignment was API calling practice, in which we used the Open Weather Map API to get Tempature, Humidity, Wind Speed, and Icons for a searched location.",
+        "description2":"We were also able to get this data for a 5-day forecast, which I displayed below todays weather. The disign of this webpage is very basic, as the main goal was to make sure the API calls worked accuretely.",
         "tech": "HTML | CSS | JavaScript |",
         "githubLink": "https://github.com/sosoberg/weather_app",
         "demoLink": "https://sosoberg.github.io/weather_app/"
